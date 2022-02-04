@@ -1,30 +1,31 @@
 local grains = {}
 
 function grains.square(n)
-    result = 2^(n-1)
-    return result
+    return 2^(n-1)
 end
 
 -- approach with a loop
-function grains.total()
+function grains.totalTillLoop()
     result = 0
     for i = 1,64,1
     do
         result = result + grains.square(i)
     end
     return result
+end  
+
+-- recursive approach
+function grains.totalTillRecursive(n)
+    if n == 1 then 
+        return 1
+    else 
+        return grains.square(n) + grains.totalTillRecursive(n-1)
+    end
 end
 
--- recursive approach; won't work
-function grains.totalTill(n)
-    next = n-1
-    result = grains.square(n) + grains.totalTill(next)
-    return result
-end
-
-function grains.totalRecursive()
-    result = grains.totalTill(64)
-    return result
+function grains.total()
+    -- return grains.totalTillLoop(64)
+    return grains.totalTillRecursive(64)
 end
 
 return grains
