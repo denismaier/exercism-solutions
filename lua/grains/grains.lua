@@ -7,8 +7,7 @@ end
 -- approach with a loop
 function grains.totalTillLoop()
     result = 0
-    for i = 1,64,1
-    do
+    for i = 1,64,1 do
         result = result + grains.square(i)
     end
     return result
@@ -23,9 +22,15 @@ function grains.totalTillRecursive(n)
     end
 end
 
+-- arithmetic approach
+function grains.totalArithmetic()
+    return 2^64-1
+end
+
 function grains.total()
     -- return grains.totalTillLoop(64)
-    return grains.totalTillRecursive(64)
+    -- return grains.totalTillRecursive(64)
+    return grains.totalArithmetic()
 end
 
 return grains
