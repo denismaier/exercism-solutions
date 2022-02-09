@@ -4,7 +4,7 @@ function normalize(s)
     return s
 end
 
-function issogramViaTable(s)
+function isogramViaTable(s)
     s = normalize(s)
     -- table to remember seen letters
     local seen = {}
