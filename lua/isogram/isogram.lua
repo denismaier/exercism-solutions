@@ -52,5 +52,7 @@ function isogramViaStringVar (s)
     end
 end
 
-
-return isogramViaStringVar
+-- which version do we want?
+-- return isogramViaList
+return isogramViaString
+-- return isogramViaStringVar
