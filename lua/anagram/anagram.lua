@@ -21,11 +21,10 @@ end
 
 function sortString (str)
     local letters = {}
-    str = str:lower()
+    local str = str:lower()
     for char in string.gmatch(str, ".") do table.insert(letters, char) end
     table.sort(letters)
-    local sortedStr = table.concat(letters)
-    return sortedStr
+    return table.concat(letters)
 end
 
 return Anagram
