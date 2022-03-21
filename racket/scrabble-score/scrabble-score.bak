@@ -1,0 +1,51 @@
+#lang racket
+
+(provide score)
+
+(define values
+  '(("a" . 1)
+    ("e" . 1)
+    ("i" . 1)
+    ("o" . 1)
+    ("u" . 1)
+    ("l" . 1)
+    ("n" . 1)
+    ("r" . 1)
+    ("s" . 1)
+    ("t" . 1)
+    ("d" . 2)
+    ("g" . 2)
+    ("b" . 3)
+    ("c" . 3)
+    ("m" . 3)
+    ("p" . 3)
+    ("f" . 4)
+    ("h" . 4)
+    ("v" . 4)
+    ("w" . 4)
+    ("y" . 4)
+    ("k" . 5)
+    ("j" . 8)
+    ("x" . 8)
+    ("q" . 10)
+    ("z" . 10)))
+
+(define (get-value value list)
+   (cdr (assoc value list)))
+
+(define (scoreOld word)
+  (define word-normalized (string-downcase word))
+  (define (worker word acc)
+    (cond
+      [(string=? word "") acc]
+      [else
+       (worker
+        (substring word 1)
+        (+ acc (get-value (substring word 0 1) values)))]))
+  (worker word-normalized 0))
+
+(define (score word)
+  (define word-normalized (string-downcase word))
+  (for ([i (in-string word-normalized)])
+    (display i)))
+  
