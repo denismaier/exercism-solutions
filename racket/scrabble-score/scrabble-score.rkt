@@ -96,13 +96,13 @@
     ))
 
 (define (alist->hash alist)
-  (for*/hash ([assoc alist]
-              [key (first assoc)])
-    (values key (second assoc))))
+  (for*/hash ([category alist]
+              [key (first category)])
+    (values key (second category))))
 
 (define (score-via-for-from-hash word)
   (define word-normalized (string-downcase word))
   (for/sum ([c (in-string word-normalized)])
     (hash-ref (alist->hash values-per-char-grouped) c 0)))
 
-(define score score-via-for)
+(define score score-via-for-from-hash)
