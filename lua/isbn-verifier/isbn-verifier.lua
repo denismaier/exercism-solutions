@@ -12,10 +12,7 @@ function valid_10(isbn)
   local sum = 0
   local factor = 10
   for char in string.gmatch(isbn, ".") do
-    local num
-    if char == 'x' then num = 10
-    else num = tonumber(char)
-    end
+    local num = char == 'x' and 10 or tonumber(char)
     sum = sum + (factor * num)
     factor = factor - 1
   end
