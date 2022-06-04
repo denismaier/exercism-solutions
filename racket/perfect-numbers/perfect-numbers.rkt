@@ -10,9 +10,10 @@
     i))
 
 (define (classify n)
+  (define perfect (aliquot-sum n))
   (cond
-    [(= n (aliquot-sum n)) 'perfect]
-    [(> n (aliquot-sum n)) 'deficient]
-    [(< n (aliquot-sum n)) 'abundant]))
+    [(= n perfect) 'perfect]
+    [(> n perfect) 'deficient]
+    [(< n perfect) 'abundant]))
 
 
