@@ -1,4 +1,4 @@
-BankAccount = {}
+local BankAccount = {}
 
 function BankAccount:new(balance)
   local self = setmetatable({}, { __index = BankAccount })
