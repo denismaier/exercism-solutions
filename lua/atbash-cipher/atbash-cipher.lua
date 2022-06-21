@@ -39,8 +39,8 @@ end
 function transpose (str)
   local letters = {}
   for char in string.gmatch(str, ".") do 
-    if char:find('%a') then table.insert(letters, mapping[char]) end
-    if char:find('%d') then table.insert(letters, char) end
+    if char:match('%a') then table.insert(letters, mapping[char]) end
+    if char:match('%d') then table.insert(letters, char) end
   end
   return table.concat(letters)
 end
