@@ -1,4 +1,4 @@
-function nth_prime_a(n)
+function nth_prime_loop(n)
   if n <= 0 then error('invalid value') end
   primes = {}
   value = 1
@@ -11,7 +11,7 @@ function nth_prime_a(n)
   return value
 end
 
-function nth_prime_b(n)
+function nth_prime_via_helper(n)
   if n <= 0 then error('invalid value') end
   local function worker(n, list_of_primes)
     if n == #list_of_primes then return list_of_primes[#list_of_primes] end
@@ -41,4 +41,4 @@ end
 
 
 
-return nth_prime_b
+return nth_prime_via_helper
