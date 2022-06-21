@@ -1,42 +1,44 @@
-function nth_prime_imp(n)
+function nth_prime_a(n)
   if n <= 0 then error('invalid value') end
   primes = {}
   value = 1
   repeat
     value = value + 1
-    if not is_multiple_of_collected_values(value, primes) and is_prime(value) then 
+    if not is_multiple_of_list_member(value, primes) then 
       table.insert(primes, value) 
     end
     until #primes == n
   return value
 end
 
-function nth_prime_rec(n)
+function nth_prime_b(n)
   if n <= 0 then error('invalid value') end
-  function nth_prime_worker(test, target, acc)
-    if is_prime(test) then 
-      if acc + 1 == target then return test end
-      return nth_prime_worker(test+1, target, acc+1) 
-    end
-    return nth_prime_worker(test+1, target, acc)
+  local function worker(n, list_of_primes)
+    if n == #list_of_primes then return list_of_primes[#list_of_primes] end
+    return worker(n, add_next_prime(list_of_primes))
   end
-  return nth_prime_worker(1, n, 0)  
+  return worker(n, {2})  
 end
 
-function is_prime(n)  
-  if n == 1 then return false end
-  for i=2, n-1, 1 do
-    if n % i == 0 then return false end
+function add_next_prime(list_of_primes)
+  last_prime = list_of_primes[#list_of_primes]
+  candidate = last_prime + 1
+  while is_multiple_of_list_member(candidate, list_of_primes) do
+    candidate = candidate + 1
   end
-  return true
+  table.insert(list_of_primes, candidate)
+  return (list_of_primes)
 end
 
-function is_multiple_of_collected_values(a, list)
+function is_multiple_of_list_member(a, list)
   if #list == 0 then return false end
-  for _,v in ipairs(list) do 
+  for _,v in ipairs(list) do
     if a % v == 0 then return true end
+    if v * v >= a then return false end
   end
   return false
 end
 
-return nth_prime_imp
+
+
+return nth_prime_b
