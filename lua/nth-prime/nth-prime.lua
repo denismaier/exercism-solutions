@@ -1,7 +1,7 @@
-function nth_prime_loop(n)
+local function nth_prime_loop(n)
   if n <= 0 then error('invalid value') end
-  primes = {}
-  value = 1
+  local primes = {}
+  local value = 1
   repeat
     value = value + 1
     if not is_multiple_of_list_member(value, primes) then 
@@ -11,7 +11,7 @@ function nth_prime_loop(n)
   return value
 end
 
-function nth_prime_via_helper(n)
+local function nth_prime_via_helper(n)
   if n <= 0 then error('invalid value') end
   local function worker(n, list_of_primes)
     if n == #list_of_primes then return list_of_primes[#list_of_primes] end
@@ -20,9 +20,9 @@ function nth_prime_via_helper(n)
   return worker(n, {2})  
 end
 
-function add_next_prime(list_of_primes)
-  last_prime = list_of_primes[#list_of_primes]
-  candidate = last_prime + 1
+local function add_next_prime(list_of_primes)
+  local last_prime = list_of_primes[#list_of_primes]
+  local candidate = last_prime + 1
   while is_multiple_of_list_member(candidate, list_of_primes) do
     candidate = candidate + 1
   end
@@ -30,7 +30,7 @@ function add_next_prime(list_of_primes)
   return (list_of_primes)
 end
 
-function is_multiple_of_list_member(a, list)
+local function is_multiple_of_list_member(a, list)
   if #list == 0 then return false end
   for _,v in ipairs(list) do
     if a % v == 0 then return true end
