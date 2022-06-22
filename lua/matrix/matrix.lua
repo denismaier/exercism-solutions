@@ -1,12 +1,12 @@
-function matrix(str)
+local function matrix(str)
   -- build matrix
   local matrix = {}
   for linestr in string.gmatch(str, "[^\n]+") do
-    line = {}
+    local line = {}
     for num in string.gmatch(linestr, "%d+") do
-      line[#line + 1] = tonumber(num)
+      table.insert(line, tonumber(num))
     end
-    matrix[#matrix+1] = line
+    table.insert(matrix, line)
   end
   
   -- accessor functions
@@ -15,7 +15,7 @@ function matrix(str)
   end
 
   local function get_column(n)
-    column = {}
+    local column = {}
     for _, row in ipairs(matrix) do
       table.insert(column, row[n])
     end
