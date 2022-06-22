@@ -61,8 +61,6 @@ local function nth_prime_via_helper(n)
   return worker(n, {2})  
 end
 
--- nth_prime = nth_prime_via_helper
--- nth_prime = nth_prime_via_loop
-nth_prime = nth_prime_via_simple_loop
-
-return nth_prime
+-- return nth_prime_via_helper
+return nth_prime_via_simple_loop
+-- return nth_prime_via_loop
