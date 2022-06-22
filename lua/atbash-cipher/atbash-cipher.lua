@@ -1,34 +1,48 @@
+-- explicit declaration of mapping
+-- local mapping = {
+--   a = "z",
+--   b = "y",
+--   c = "x",
+--   d = "w",
+--   e = "v",
+--   f = "u",
+--   g = "t",
+--   h = "s",
+--   i = "r",
+--   j = "q",
+--   k = "p",
+--   l = "o",
+--   m = "n",
+--   n = "m",
+--   o = "l",
+--   p = "k",
+--   q = "j",
+--   r = "i",
+--   s = "h",
+--   t = "g",
+--   u = "f",
+--   v = "e",
+--   w = "d",
+--   x = "c",
+--   y = "b",
+--   z = "a",
+-- }
 
-local mapping = {
-  a = "z",
-  b = "y",
-  c = "x",
-  d = "w",
-  e = "v",
-  f = "u",
-  g = "t",
-  h = "s",
-  i = "r",
-  j = "q",
-  k = "p",
-  l = "o",
-  m = "n",
-  n = "m",
-  o = "l",
-  p = "k",
-  q = "j",
-  r = "i",
-  s = "h",
-  t = "g",
-  u = "f",
-  v = "e",
-  w = "d",
-  x = "c",
-  y = "b",
-  z = "a",
-}
+-- automatic generation of mapping
+
+local letters = "abcdefghijklmnopqrstuvwxyz"
+local reversed = string.reverse(letters)
+
+local function make_mapping(src, dest)
+  local mapping = {}
+  for i = 1, #src do
+    mapping[src:sub(i,i)] = dest:sub(i,i)
+  end
+  return mapping
+end
 
 local function transpose (str)
+  local mapping = make_mapping(letters, reversed)
   local letters = {}
   for char in string.gmatch(str, ".") do 
     if char:match('%a') then table.insert(letters, mapping[char]) end
