@@ -27,7 +27,7 @@ end
 
 
 -- implementations
-local function nth_prime_loop(n)
+local function nth_prime_via_loop(n)
   if n <= 0 then error('invalid value') end
   local primes = {}
   local value = 1
