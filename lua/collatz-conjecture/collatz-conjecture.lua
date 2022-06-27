@@ -1,3 +1,7 @@
+local function is_even(n)
+    return n % 2 == 0
+end
+
 local function conjecture(n, acc)
     assert (n > 0, 'Only positive numbers are allowed')
     local acc = acc or 0
@@ -13,8 +17,5 @@ local function conjecture(n, acc)
     end
 end
 
-local function is_even(n)
-    return n % 2 == 0
-end
 
 return conjecture
