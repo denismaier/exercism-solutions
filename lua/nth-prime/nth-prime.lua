@@ -1,5 +1,15 @@
 --helpers 
-function add_next_prime(list_of_primes)
+
+local function is_multiple_of_list_member(a, list)
+  if #list == 0 then return false end
+  for _,v in ipairs(list) do
+    if a % v == 0 then return true end
+    if v * v >= a then return false end
+  end
+  return false
+end
+
+local function add_next_prime(list_of_primes)
   local last_prime = list_of_primes[#list_of_primes]
   local candidate = last_prime + 1
   while is_multiple_of_list_member(candidate, list_of_primes) do
@@ -9,22 +19,12 @@ function add_next_prime(list_of_primes)
   return (list_of_primes)
 end
 
-function is_multiple_of_list_member(a, list)
-  if #list == 0 then return false end
-  for _,v in ipairs(list) do
-    if a % v == 0 then return true end
-    if v * v >= a then return false end
-  end
-  return false
-end
-
-function is_prime(n)
+local function is_prime(n)
   for i = 2, math.sqrt(n), 1 do
     if n % i == 0 then return false end
   end
   return true
 end
-
 
 -- implementations
 local function nth_prime_via_loop(n)
