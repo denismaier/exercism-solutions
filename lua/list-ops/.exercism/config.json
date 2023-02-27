@@ -1,0 +1,20 @@
+{
+  "blurb": "Implement basic list operations",
+  "authors": [
+    "ryanplusplus"
+  ],
+  "contributors": [
+    "aarti"
+  ],
+  "files": {
+    "solution": [
+      "list-ops.lua"
+    ],
+    "test": [
+      "list-ops_spec.lua"
+    ],
+    "example": [
+      ".meta/example.lua"
+    ]
+  }
+}
