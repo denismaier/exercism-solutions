@@ -1,18 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "bVuNjvylcvvYdC4wfhln99GFwiKnzoRXWxavv7BqDxngEYEf5CmFtn99x4kBkKkdP9cDGhCGPk/xvb0jatgi9w==",
-  "success": false,
+  "dgSpecHash": "DNzSQ+s7YcxsxjCNEqnZGtpm0rBxHuCduMC53yAiBnOssV5FF/iIEGGK37sCNZAdUVSyTSJCN+ZWcsYp4zOWUw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\denis\\Exercism\\fsharp\\lucians-luscious-lasagna\\LuciansLusciousLasagna.fsproj",
   "expectedPackageFiles": [
+    "C:\\Users\\denis\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.net.test.sdk\\16.8.3\\microsoft.net.test.sdk.16.8.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.8.3\\microsoft.testplatform.objectmodel.16.8.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\microsoft.testplatform.testhost\\16.8.3\\microsoft.testplatform.testhost.16.8.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\nhamcrest\\2.0.1\\nhamcrest.2.0.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
@@ -37,6 +43,7 @@
     "C:\\Users\\denis\\.nuget\\packages\\system.runtime.extensions\\4.1.0\\system.runtime.extensions.4.1.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.0.0\\system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
@@ -45,63 +52,15 @@
     "C:\\Users\\denis\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\denis\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\denis\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "\"LuciansLusciousLasagna\" ist von \"Microsoft.NET.Test.Sdk (>= 16.8.3)\" abhängig, \"Microsoft.NET.Test.Sdk 16.8.3\" wurde jedoch nicht gefunden. Die ungefähre höchste Übereinstimmung von \"Microsoft.NET.Test.Sdk 16.11.0\" wurde aufgelöst.",
-      "libraryId": "Microsoft.NET.Test.Sdk",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Das Paket \"xunit\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "xunit",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Das Paket \"xunit.runner.visualstudio\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Das Paket \"FsUnit.xUnit\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "FsUnit.xUnit",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Das Paket \"Exercism.Tests\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "Exercism.Tests",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Das Paket \"NuGet.Frameworks\" der Version (>= 5.0.0) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 4.6.4 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs.",
-      "libraryId": "NuGet.Frameworks",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
