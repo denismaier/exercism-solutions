@@ -1,0 +1,6 @@
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: Start test leap tests:5:year divisible by 100 but not by 3 is still not a leap year.
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: Test leap tests:5:year divisible by 100 but not by 3 is still not a leap year is successful.
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: End test leap tests:5:year divisible by 100 but not by 3 is still not a leap year.
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: Start test leap tests:8:year divisible by 200, not divisible by 400 in common year.
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: Test leap tests:8:year divisible by 200, not divisible by 400 in common year is successful.
+2023-06-14T06:56:03+00:00 LAPTOP-LTPGIL31#06 I: End test leap tests:8:year divisible by 200, not divisible by 400 in common year.
