@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g1XRvlu2/AIor6rEzyZe6y6EBaUo3Sn/W/c4HayWgewQK3zTCIY9h1JIiAxy23FLmTBVSiD0BDOkdqjI+Us3Cg==",
+  "dgSpecHash": "/FWAAp/tQvUJ+J/GxB4fgnGYGb9SmWH84VuPDBFI1Ut7KsUIkdFuUMGydqWuS3K5+0iw/wJULXEOgTaFGyRypw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denis\\Exercism\\fsharp\\accumulate\\Accumulate.fsproj",
+  "projectFilePath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\accumulate\\Accumulate.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

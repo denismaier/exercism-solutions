@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "FSharp.Core/7.0.0": {
+      "FSharp.Core/7.0.300": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/FSharp.Core.dll": {
@@ -1160,15 +1160,15 @@
     }
   },
   "libraries": {
-    "FSharp.Core/7.0.0": {
-      "sha512": "UcPaa9FW4civPrXL059dEa6Pk8ZMfllEf9RRcChv0reBLnM1WfcXXn7pW357FxGb+CUosq0W93TevJQ6z8G93g==",
+    "FSharp.Core/7.0.300": {
+      "sha512": "8vvItREJ1l5lcp3vBCSJ1mFevVAhR48I34DuF/EoUa7o1KlFpQpagyuZkVYMAsHPIjdp47ZxM9sI4eqeXaeWkA==",
       "type": "package",
-      "path": "fsharp.core/7.0.0",
+      "path": "fsharp.core/7.0.300",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "fsharp.core.7.0.0.nupkg.sha512",
+        "fsharp.core.7.0.300.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/netstandard2.0/FSharp.Core.dll",
         "lib/netstandard2.0/FSharp.Core.xml",
@@ -3997,7 +3997,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "FSharp.Core >= 7.0.0",
+      "FSharp.Core >= 7.0.300",
       "FsUnit.xUnit >= 4.0.4",
       "Microsoft.NET.Test.Sdk >= 16.8.3",
       "xunit >= 2.4.1",
@@ -4010,22 +4010,20 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denis\\Exercism\\fsharp\\accumulate\\Accumulate.fsproj",
+      "projectUniqueName": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\accumulate\\Accumulate.fsproj",
       "projectName": "Accumulate",
-      "projectPath": "C:\\Users\\denis\\Exercism\\fsharp\\accumulate\\Accumulate.fsproj",
+      "projectPath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\accumulate\\Accumulate.fsproj",
       "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denis\\Exercism\\fsharp\\accumulate\\obj\\",
+      "outputPath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\accumulate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.102\\FSharp\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\FSharp\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4042,7 +4040,7 @@
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[7.0.0, )",
+            "version": "[7.0.300, )",
             "generatePathProperty": true
           },
           "FsUnit.xUnit": {
@@ -4082,7 +4080,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

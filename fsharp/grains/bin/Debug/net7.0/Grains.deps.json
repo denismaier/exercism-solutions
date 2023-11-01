@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Grains/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "7.0.0",
+          "FSharp.Core": "7.0.300",
           "FsUnit.xUnit": "4.0.4",
           "Microsoft.NET.Test.Sdk": "16.8.3",
           "xunit": "2.4.1",
@@ -18,11 +18,11 @@
           "Grains.dll": {}
         }
       },
-      "FSharp.Core/7.0.0": {
+      "FSharp.Core/7.0.300": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.56703"
+            "fileVersion": "7.3.23.20307"
           }
         },
         "resources": {
@@ -69,7 +69,7 @@
       },
       "FsUnit.xUnit/4.0.4": {
         "dependencies": {
-          "FSharp.Core": "7.0.0",
+          "FSharp.Core": "7.0.300",
           "NETStandard.Library": "2.0.3",
           "NHamcrest": "2.0.1",
           "xunit": "2.4.1"
@@ -796,12 +796,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FSharp.Core/7.0.0": {
+    "FSharp.Core/7.0.300": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UcPaa9FW4civPrXL059dEa6Pk8ZMfllEf9RRcChv0reBLnM1WfcXXn7pW357FxGb+CUosq0W93TevJQ6z8G93g==",
-      "path": "fsharp.core/7.0.0",
-      "hashPath": "fsharp.core.7.0.0.nupkg.sha512"
+      "sha512": "sha512-8vvItREJ1l5lcp3vBCSJ1mFevVAhR48I34DuF/EoUa7o1KlFpQpagyuZkVYMAsHPIjdp47ZxM9sI4eqeXaeWkA==",
+      "path": "fsharp.core/7.0.300",
+      "hashPath": "fsharp.core.7.0.300.nupkg.sha512"
     },
     "FsUnit.xUnit/4.0.4": {
       "type": "package",

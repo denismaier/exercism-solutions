@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denis\\Exercism\\fsharp\\leap\\Leap.fsproj": {}
+    "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\Leap.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\denis\\Exercism\\fsharp\\leap\\Leap.fsproj": {
+    "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\Leap.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denis\\Exercism\\fsharp\\leap\\Leap.fsproj",
+        "projectUniqueName": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\Leap.fsproj",
         "projectName": "Leap",
-        "projectPath": "C:\\Users\\denis\\Exercism\\fsharp\\leap\\Leap.fsproj",
+        "projectPath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\Leap.fsproj",
         "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denis\\Exercism\\fsharp\\leap\\obj\\",
+        "outputPath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,7 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs": {},
+          "C:\\Users\\denis\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.304\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +37,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[7.0.0, )",
+              "version": "[7.0.300, )",
               "generatePathProperty": true
             },
             "FsUnit.xUnit": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\denis\\scoop\\apps\\dotnet-sdk\\current\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

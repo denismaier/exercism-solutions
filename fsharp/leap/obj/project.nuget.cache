@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rDnyH0pGfVmeGGVbTmfcGbIKJYbbIIs6CiXQwh6WKfni81dvKeczleWr5sG/OXgC7VaBajzGMkqbcinb7A5O/A==",
+  "dgSpecHash": "OpdoThPteNd6I8fbe5zJoloPi/9lXs8yrGNwPxcj2hqMejzFAC+z3csw4ZyhWTHTwEjcDhhfiKJnTrcGhqWDKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denis\\Exercism\\fsharp\\leap\\Leap.fsproj",
+  "projectFilePath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\leap\\Leap.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

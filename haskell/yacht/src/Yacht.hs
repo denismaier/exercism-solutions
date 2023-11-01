@@ -3,7 +3,7 @@
 module Yacht (yacht, Category(..)) where
 
 import Data.List
-import Data.MultiSet (occur, distinctSize, toOccurList, elems)
+import Data.MultiSet (occur, distinctSize, toAscList, toOccurList, toAscOccurList, elems)
 
 import qualified Data.MultiSet as MS
 
@@ -20,8 +20,30 @@ data Category = Ones
               | Choice
               | Yacht
 
+
 yacht :: Category -> [Int] -> Int
 yacht category (MS.fromList -> dice) = 
+  case category of
+    Yacht          | distinctSize dice == 1  -> 50
+    FullHouse      | sort (map snd (toOccurList dice)) == [2,3]  -> sum $ elems dice
+    FourOfAKind    | (d, m) <- getMostFrequent, m >= 4 -> 4 * d
+    LittleStraight | toAscList dice == [1,2,3,4,5]  -> 30
+    BigStraight    | toAscList dice == [2,3,4,5,6]  -> 30
+    Choice         -> sum dice
+    Ones           -> sumOfNum 1
+    Twos           -> sumOfNum 2
+    Threes         -> sumOfNum 3
+    Fours          -> sumOfNum 4
+    Fives          -> sumOfNum 5
+    Sixes          -> sumOfNum 6
+    _              -> 0
+  where
+    sumOfNum x = x * occur x dice
+    getMostFrequent = last $ sortOn snd $ toAscOccurList dice
+
+
+yacht'' :: Category -> [Int] -> Int
+yacht'' category (MS.fromList -> dice) = 
   case category of
     Yacht          -> evalYacht
     FullHouse      -> evalFullHouse

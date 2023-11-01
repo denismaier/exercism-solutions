@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U4VR9lJikSfgQwEJV8aVPYoJns6PkU6ZKhNXVQGfo0vp0KnyRKq8egyMGidXPGeNB3XaeGuqmIbYdFCXU4FREg==",
+  "dgSpecHash": "vsn79W++5XsYMn4rZ5nKE0HWJycvnotpKm0+zsIXYrda1JHFue3BECC4Hcxov6Oi1VJPQzgAdkne20n/eE5BIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denis\\Exercism\\fsharp\\grains\\Grains.fsproj",
+  "projectFilePath": "C:\\Users\\denis\\dateien\\2-bereiche\\ich\\lernen\\dev\\exercism\\fsharp\\grains\\Grains.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\denis\\.nuget\\packages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

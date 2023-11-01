@@ -1,0 +1,15 @@
+#lang racket
+
+(provide collatz)
+
+(define (collatz num)
+  (define (handle-even num) (/ num 2))
+  (define (handle-odd num) (+ (* 3 num) 1))
+  (define (collatz-worker num acc)
+    (cond
+      [(= num 1) acc]
+      [(even? num) (collatz-worker (handle-even num) (add1 acc))]
+      [else (collatz-worker (handle-odd num) (add1 acc))]))
+  (if (exact-positive-integer? num)
+      (collatz-worker num 0)
+      (error "illegal number")))
